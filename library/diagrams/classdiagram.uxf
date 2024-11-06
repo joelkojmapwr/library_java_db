@@ -1,0 +1,70 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>660</x><y>264</y><w>352</w><h>275</h></coordinates><panel_attributes>Package::library.library
+--
++ books: List&lt;Book&gt;
++ members: List&lt;Members&gt;
++ rentals: List&lt;Rentals&gt;
++ copies: List&lt;Copies&gt;
+- bookDAO: BookDAO
+- copyDAO: CopyDAO
+- memberDAO: MemberDAO
+- rentalDAO: rentalDAO
+--
++ print(entity: List&lt;T&gt;)
++ addBook(title: String, author: String)
++ newCopy(book:Book)
++ addMember(name: String, lastName: String)
++ addRental(memberID: int, bookID: int, copyID: int)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>308</x><y>187</y><w>165</w><h>209</h></coordinates><panel_attributes>Package::library.Book
+--
++ id: Int
++ title: String
++ author: String
++ copy: List&lt;Copy&gt;
+--
++ addCopy(): Copy
++ print()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>33</x><y>264</y><w>187</w><h>176</h></coordinates><panel_attributes>Package::library.Copy
+--
++ id: Int
++ titleId: int
+- state: State
+--
++ isAvailable: Boolean
++ rent()
++ returnCopy()
++ print()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>561</y><w>176</w><h>154</h></coordinates><panel_attributes>Package::library.Member
+--
++ id: Int
++ name: String
++ lastname: String
+--
++ print()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>462</x><y>583</y><w>187</w><h>198</h></coordinates><panel_attributes>Package::library.Rental
+--
++ id: Int
++ rentalDateTime: LocalDateTime
++ returnDateTime: LocalDateTime
++ memberId: int
++ bookId: Int
++ copyId: int
+--
++ isReturned(): Boolean
++ returnBook()
++ print()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>209</x><y>264</y><w>121</w><h>44</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>462</x><y>187</y><w>220</w><h>132</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;180;100</additional_attributes></element><element><id>Relation</id><coordinates><x>385</x><y>308</y><w>297</w><h>275</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;230;250;10</additional_attributes></element><element><id>Relation</id><coordinates><x>528</x><y>330</y><w>154</w><h>275</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;230;120;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1089</x><y>253</y><w>154</w><h>121</h></coordinates><panel_attributes>Package::library.App
+--
++ library: Library
++ options: List&lt;Option&gt;
+--
++ createOptions()
++ run()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1001</x><y>264</y><w>110</w><h>44</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;80;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1320</x><y>253</y><w>154</w><h>121</h></coordinates><panel_attributes>Package::library.Option
+--
++ title: String
+- executable: Runnable
+--
++ execute()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1232</x><y>253</y><w>110</w><h>77</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>80;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>726</x><y>11</y><w>198</w><h>154</h></coordinates><panel_attributes>Package::dao.ReadWriteDb&lt;T&gt;
+--
+
+--
++ readAll(): List&lt;T&gt;
++ readByID(id:int): T
++ insert(book: Book)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>803</x><y>154</y><w>33</w><h>132</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram>
