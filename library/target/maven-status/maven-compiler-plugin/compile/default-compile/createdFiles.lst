@@ -1,0 +1,14 @@
+library/App.class
+dao/Database.class
+library/State.class
+library/Copy.class
+dao/MemberDAO.class
+library/Rental.class
+library/Book.class
+dao/ReadWriteDb.class
+dao/CopyDAO.class
+library/Library.class
+library/Printable.class
+dao/BookDAO.class
+dao/RentalDAO.class
+library/Member.class
