@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import library.Member;
-import dao.Database;
 
 public class MemberDAO implements ReadWriteDb<Member> {
     

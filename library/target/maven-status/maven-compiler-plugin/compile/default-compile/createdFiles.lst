@@ -1,5 +1,6 @@
 library/App.class
 dao/Database.class
+library/Option.class
 library/State.class
 library/Copy.class
 dao/MemberDAO.class

@@ -4,6 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * Class for connecting to the database
+ */
 public class Database {
     private static final String URL = "jdbc:mariadb://localhost:3306/library";
     private static final String USER = "joel";
@@ -12,6 +15,4 @@ public class Database {
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
-
-
 }

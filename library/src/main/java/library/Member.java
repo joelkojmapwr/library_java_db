@@ -1,5 +1,9 @@
 package library;
 
+/**
+ * Holds members of the library
+ * @implNote implements Printable
+ */
 public class Member implements Printable {
     public int id;
     public String name;
@@ -10,7 +14,7 @@ public class Member implements Printable {
         this.name = name;
         this.lastName = lastName;
     }
-
+    @Override
     public void print() {
         System.out.println("ID: " + id + " Name: " + name + " Lastname: " + lastName);
     }

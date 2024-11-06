@@ -1,7 +1,9 @@
 package library;
 
-import library.State;
-
+/**
+ * Represents a copy of a title
+ * @implNote implements Printable
+ */
 public class Copy implements Printable {
     public int id;
     public int titleId;

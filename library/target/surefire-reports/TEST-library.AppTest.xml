@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="library.AppTest" time="0.037" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="library.AppTest" time="0.266" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/joel/Documents/studia/tech_prog/lista2/library/target/test-classes:/home/joel/Documents/studia/tech_prog/lista2/library/target/classes:/home/joel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/home/joel/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/joel/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/home/joel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/joel/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/home/joel/.m2/repository/org/mariadb/jdbc/mariadb-java-client/3.5.0/mariadb-java-client-3.5.0.jar:/home/joel/.m2/repository/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar:/home/joel/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/joel/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/home/joel/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar:/home/joel/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar:/home/joel/.m2/repository/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar:/home/joel/.m2/repository/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.jar:/home/joel/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/joel/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/joel/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:"/>
+    <property name="java.class.path" value="/home/joel/Documents/studia/tech_prog/lista2/library/target/test-classes:/home/joel/Documents/studia/tech_prog/lista2/library/target/classes:/home/joel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/home/joel/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/joel/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/home/joel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/joel/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/home/joel/.m2/repository/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.jar:/home/joel/.m2/repository/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar:/home/joel/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/joel/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/home/joel/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar:/home/joel/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar:/home/joel/.m2/repository/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar:/home/joel/.m2/repository/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.jar:/home/joel/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/joel/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/joel/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-21-oracle-x64/lib"/>
-    <property name="sun.java.command" value="/home/joel/Documents/studia/tech_prog/lista2/library/target/surefire/surefirebooter-20241106100626413_3.jar /home/joel/Documents/studia/tech_prog/lista2/library/target/surefire 2024-11-06T10-06-26_334-jvmRun1 surefire-20241106100626413_1tmp surefire_0-20241106100626413_2tmp"/>
+    <property name="sun.java.command" value="/home/joel/Documents/studia/tech_prog/lista2/library/target/surefire/surefirebooter-20241106124543700_3.jar /home/joel/Documents/studia/tech_prog/lista2/library/target/surefire 2024-11-06T12-45-43_631-jvmRun1 surefire-20241106124543700_1tmp surefire_0-20241106124543700_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/joel/Documents/studia/tech_prog/lista2/library/target/test-classes:/home/joel/Documents/studia/tech_prog/lista2/library/target/classes:/home/joel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/home/joel/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/joel/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/home/joel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/joel/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/home/joel/.m2/repository/org/mariadb/jdbc/mariadb-java-client/3.5.0/mariadb-java-client-3.5.0.jar:/home/joel/.m2/repository/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar:/home/joel/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/joel/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/home/joel/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar:/home/joel/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar:/home/joel/.m2/repository/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar:/home/joel/.m2/repository/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.jar:/home/joel/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/joel/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/joel/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:"/>
+    <property name="surefire.test.class.path" value="/home/joel/Documents/studia/tech_prog/lista2/library/target/test-classes:/home/joel/Documents/studia/tech_prog/lista2/library/target/classes:/home/joel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/home/joel/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/joel/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/home/joel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/joel/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/home/joel/.m2/repository/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.jar:/home/joel/.m2/repository/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar:/home/joel/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/joel/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/home/joel/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar:/home/joel/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar:/home/joel/.m2/repository/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar:/home/joel/.m2/repository/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.jar:/home/joel/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/joel/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/joel/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/joel"/>
     <property name="user.language" value="en"/>
@@ -27,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/joel/Documents/studia/tech_prog/lista2/library/target/surefire/surefirebooter-20241106100626413_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/joel/Documents/studia/tech_prog/lista2/library/target/surefire/surefirebooter-20241106124543700_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
     <property name="user.name" value="joel"/>
@@ -53,5 +54,39 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="library.AppTest" time="0.018"/>
+  <testcase name="checkBookwithID8" classname="library.AppTest" time="0.235">
+    <system-out><![CDATA[12:45:44.324 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - Database change: is 'library'
+12:45:44.331 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: set sql_mode=CONCAT(@@sql_mode,',STRICT_TRANS_TABLES'),session_track_system_variables = CONCAT(@@global.session_track_system_variables,',tx_isolation'),NAMES utf8mb4
+12:45:44.331 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_client = utf8mb4
+12:45:44.332 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_connection = utf8mb4
+12:45:44.332 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_results = utf8mb4
+12:45:44.336 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: SELECT id, title, author FROM books
+12:45:44.342 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - Database change: is 'library'
+12:45:44.342 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: set sql_mode=CONCAT(@@sql_mode,',STRICT_TRANS_TABLES'),session_track_system_variables = CONCAT(@@global.session_track_system_variables,',tx_isolation'),NAMES utf8mb4
+12:45:44.342 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_client = utf8mb4
+12:45:44.342 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_connection = utf8mb4
+12:45:44.343 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_results = utf8mb4
+12:45:44.343 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: SELECT member_id, name, last_name FROM members
+12:45:44.347 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - Database change: is 'library'
+12:45:44.347 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: set sql_mode=CONCAT(@@sql_mode,',STRICT_TRANS_TABLES'),session_track_system_variables = CONCAT(@@global.session_track_system_variables,',tx_isolation'),NAMES utf8mb4
+12:45:44.347 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_client = utf8mb4
+12:45:44.347 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_connection = utf8mb4
+12:45:44.347 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_results = utf8mb4
+12:45:44.347 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: SELECT id, book_id, member_id, rental_date, return_date FROM rentals
+12:45:44.351 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - Database change: is 'library'
+12:45:44.351 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: set sql_mode=CONCAT(@@sql_mode,',STRICT_TRANS_TABLES'),session_track_system_variables = CONCAT(@@global.session_track_system_variables,',tx_isolation'),NAMES utf8mb4
+12:45:44.352 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_client = utf8mb4
+12:45:44.352 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_connection = utf8mb4
+12:45:44.352 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_results = utf8mb4
+12:45:44.352 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: SELECT id, titleID FROM copies
+]]></system-out>
+  </testcase>
+  <testcase name="testConnectionWithDatabase" classname="library.AppTest" time="0.006">
+    <system-out><![CDATA[12:45:44.373 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - Database change: is 'library'
+12:45:44.373 [main] DEBUG org.mariadb.jdbc.client.impl.StandardClient - execute query: set sql_mode=CONCAT(@@sql_mode,',STRICT_TRANS_TABLES'),session_track_system_variables = CONCAT(@@global.session_track_system_variables,',tx_isolation'),NAMES utf8mb4
+12:45:44.373 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_client = utf8mb4
+12:45:44.374 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_connection = utf8mb4
+12:45:44.374 [main] DEBUG org.mariadb.jdbc.message.server.OkPacket - System variable change:  character_set_results = utf8mb4
+]]></system-out>
+  </testcase>
 </testsuite>
