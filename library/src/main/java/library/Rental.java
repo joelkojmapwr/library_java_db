@@ -12,7 +12,7 @@ public class Rental implements Printable {
     public int memberId;
     public int bookId;
     /** Id of the rented copy of the book */
-    int copyId;
+    public int copyId;
 
     /**
      * For importing the rental from the database

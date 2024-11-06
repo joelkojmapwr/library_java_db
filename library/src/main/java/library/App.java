@@ -97,6 +97,11 @@ public class App {
             int bookId = Integer.parseInt(System.console().readLine());
             library.books.get(bookId - 1).print();
         }));
+        options.add(new Option ("Return book", () -> {
+            System.out.print("Enter rental id: ");
+            int rentalId = Integer.parseInt(System.console().readLine());
+            library.returnRental(rentalId);
+        }));
         options.add(new Option("Quit", () -> System.exit(0)));
     }
 }

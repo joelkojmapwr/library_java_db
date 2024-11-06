@@ -8,9 +8,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import library.Copy;
-
+/**
+ * Responsible for handling the SQL requests with the Copy table
+ */
 public class CopyDAO implements ReadWriteDb<Copy> {
-
+    /**
+     * Reads all records from the table
+     */
     public List<Copy> readAll() {
         List<Copy> copies = new ArrayList<>();
         String sql = "SELECT id, titleID FROM copies";

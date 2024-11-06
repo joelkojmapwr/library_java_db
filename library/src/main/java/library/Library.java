@@ -93,4 +93,9 @@ public class Library {
         rentals.add(newRental);
         rentalDAO.insert(newRental);
     }
+
+    public void returnRental(int rentalID) {
+        Rental rental = rentals.get(rentalID - 1);
+        rental.returnBook();
+    }
 }

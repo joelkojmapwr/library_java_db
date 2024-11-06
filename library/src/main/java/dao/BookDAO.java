@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import library.Book;
-import dao.Database;
 
 public class BookDAO implements ReadWriteDb<Book> {
     
